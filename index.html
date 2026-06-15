@@ -4,8 +4,136 @@
     <meta charset="UTF-8"/>
     <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
     <title>Document</title>
-    <link rel="stylesheet" href="./style.css"/>
     <link rel="stylesheet"href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css">
+    <style>
+      body{
+    background-color: #D8D6D8;
+    
+}
+h1{
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 300;
+}
+
+.outer{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+   
+}
+
+
+.container{
+    height: 250px;
+    width: 300px;
+    background-color: white;
+    border-bottom: 1px solid white;
+    border-radius: 20px;
+    margin: 20px;
+}
+
+.upper{
+    height: 20px;
+    width: 300px;
+}
+
+.upper1{
+    background-color: #D05098;
+}
+
+.upper2{
+    background-color: #43B6C2;
+}
+
+.upper3{
+    background-color: #4FAF52;
+}
+
+.upper4{
+    background-color: #E4E704;
+}
+
+.upper5{
+    background-color: #C380EF;
+}
+
+.upper6{
+    background-color: #EC7BBC;
+}
+
+.lower{
+    box-shadow: black;
+    font-family: Arial, Helvetica, sans-serif; 
+    margin-left: 10px;
+}
+
+.btn{
+    height: 50px;
+    width: 150px;
+    background-color: #EC7BBC;
+    border-radius: 15px;
+    border: 1px solid #EC7BBC;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    font-weight: 700;
+}
+
+.btn-container{
+    text-align: center;
+    margin-top: 30px;
+}
+
+.overlap-container{
+    position: relative;
+    display: inline-block;
+    margin-top: 40px;
+    margin-left: 30px;
+    width: 60px;
+}
+
+.base-image{
+    display: block;
+    width: 100%;
+    height: auto;
+}
+
+.overlay-svg{
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    width: 70%;
+    height: 70%;
+}
+
+.pop-up{
+    height: 80px;
+    width: 80px;
+
+    background-color: green;
+    border: 1px solid green;
+    border-radius: 50%;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+
+    
+}
+
+.image{
+    height: 40px;
+    width: 40px;
+}
+
+
+    </style>
   </head>
   <body>
     <div class="pop-up">
@@ -148,7 +276,7 @@
 
     </div>
     <div class="btn-container">
-        <button class="btn2">Contact Us</button>
+        <button class="btn">Contact Us</button>
       </div>
 
       <script src="script.js"></script>
